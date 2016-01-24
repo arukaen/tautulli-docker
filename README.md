@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/arukaen/plexpy-docker.svg?branch=master)](https://travis-ci.org/arukaen/plexpy-docker)
 
-This repository contains **Dockerfile** of [PlexPy](https://github.com/drzoidberg33/plexpy) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/arukaen/mumble-server/) published to the public [Docker Hub](https://hub.docker.com/).
+This repository contains **Dockerfile** of [PlexPy](https://github.com/drzoidberg33/plexpy) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/arukaen/plexpy/) published to the public [Docker Hub](https://hub.docker.com/).
 
 ### Base Docker Image
 
