@@ -12,8 +12,8 @@ This repository contains **Dockerfile** of [PlexPy](https://github.com/drzoidber
 
 1. Install [Docker](https://www.docker.com/).
 
-2. `docker pull arukaen/plexpy-docker`
-    (You can also build the image from the Dockerfile: `docker build -t="arukaen/plexpy-docker" github.com/arukaen/plexpy-docker`)
+2. `docker pull arukaen/plexpy`
+    (You can also build the image from the Dockerfile: `docker build -t="arukaen/plexpy" github.com/arukaen/plexpy-docker`)
 
 ### Usage
 
