@@ -18,4 +18,4 @@ This repository contains **Dockerfile** of [PlexPy](https://github.com/drzoidber
 ### Usage
 
 #### Run `plexpy-docker`
-    docker run -d --name PlexPy -p 8181:8181 arukaen/plexpy-docker
+    docker run -d --name PlexPy -p 8181:8181 arukaen/plexpy
