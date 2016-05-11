@@ -6,7 +6,7 @@ This repository contains **Dockerfile** of [PlexPy](https://github.com/drzoidber
 
 ### Base Docker Image
 
-* [library/ubuntu:14.04](https://github.com/docker-library/docs/blob/master/ubuntu/tag-details.md#ubuntu1404)
+* [library/alpine:latest](https://github.com/docker-library/docs/blob/master/alpine/tag-details.md#alpinelatest)
 
 ### Installation
 
