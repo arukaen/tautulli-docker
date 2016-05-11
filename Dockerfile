@@ -1,12 +1,12 @@
-FROM ubuntu:14.04
+FROM alpine:latest
 MAINTAINER  Cris G c@cristhekid.com
-ENV DEBIAN_FRONTEND noninteractive
 
 # Install required packages.
 RUN \
-  apt-get update && \
-  apt-get install -yq git python && \
-  rm -rf /var/lib/apt/lists/*
+  apk add --update \
+  git \
+  python \
+  && rm -rf /var/cache/apk/*
 
 # Create Plexpy directory
 RUN mkdir -p /opt/plexpy
