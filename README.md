@@ -6,7 +6,7 @@ This repository contains **Dockerfile** of [PlexPy](https://github.com/drzoidber
 
 ### Base Docker Image
 
-* [library/alpine:latest](https://github.com/docker-library/docs/blob/master/alpine/tag-details.md#alpinelatest)
+* [library/alpine:latest](https://github.com/docker-library/repo-info/blob/master/repos/alpine/tag-details.md#alpinelatest)
 
 ### Installation
 
