@@ -5,6 +5,9 @@
 
 This repository contains **Dockerfile** of [PlexPy](https://github.com/drzoidberg33/plexpy) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/arukaen/plexpy/) published to the public [Docker Hub](https://hub.docker.com/).
 
+### What is Plexpy?
+A python based web application for monitoring, analytics and notifications for [Plex Media Server](https://plex.tv).
+
 ### Base Docker Image
 
 * [library/alpine:latest](https://github.com/docker-library/repo-info/blob/master/repos/alpine/tag-details.md#alpinelatest)
