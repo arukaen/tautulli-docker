@@ -22,4 +22,4 @@ A python based web application for monitoring, analytics and notifications for [
 ### Usage
 
 #### Run `plexpy-docker`
-    docker run -d --name PlexPy -p 8181:8181 arukaen/plexpy
+    docker run --restart=always -d --name PlexPy -p 8181:8181 arukaen/plexpy
