@@ -12,16 +12,16 @@ RUN \
 RUN mkdir -p /opt/plexpy
 
 # Clone the repo.
-RUN git clone https://github.com/drzoidberg33/plexpy.git /opt/plexpy/
+RUN git clone https://github.com/Tautulli/Tautulli.git /opt/tautulli/
 
 # Volume for Plexpy data.
 VOLUME /data
 
 # Set the working directory.
-WORKDIR /opt/plexpy
+WORKDIR /opt/tautulli
 
 # Define default command.
-CMD ["python", "PlexPy.py", "--nolaunch", "--datadir=/data"]
+CMD ["python", "Tautulli.py", "--nolaunch", "--datadir=/data"]
 
 # Expose ports.
 EXPOSE 8181
